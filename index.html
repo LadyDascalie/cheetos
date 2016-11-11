@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <title>Cheetos Salary Calculator</title>
+</head>
+<body class="container">
+<div id="content" class="row">
+    <br>
+    <label>Yearly salary: <input class="form-control" id="salary" type="text"></label><br>
+    <button class="btn btn-success" onclick="howManyCheetos(document.getElementById('salary').value)">Calculate!</button>
+    <br>
+    <small class="minitext">* Given an average 85g bag of cheetos, containing 237.5 cheetos, costing an average 1.29£...</small>
+    <div id="res">
+        <br>
+    </div>
+</div>
+</body>
+</html>
